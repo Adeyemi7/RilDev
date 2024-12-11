@@ -1,6 +1,6 @@
 import avatar from "../assets/avatar-jessica.jpeg"
-import ButtonUi from "../ui/buttonUI"
 import { useNavigate } from "react-router-dom"
+import ButtonUi from "../ui/buttonUI";
 
 
 const PortfolioProfile = () => {
