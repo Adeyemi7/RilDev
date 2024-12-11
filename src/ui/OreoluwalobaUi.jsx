@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 
-const ButtonUi = ({text, onClick}) => {
+const OreoluwabaUi = ({text, onClick}) => {
 
   return (
     <>
@@ -10,4 +10,4 @@ const ButtonUi = ({text, onClick}) => {
   )
 }
 
-export default ButtonUi
+export default OreoluwabaUi

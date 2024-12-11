@@ -1,6 +1,6 @@
 import avatar from "../assets/avatar-jessica.jpeg"
 import { useNavigate } from "react-router-dom"
-import ButtonUi from "../ui/buttonUI";
+import OreoluwabaUi from "../ui/OreoluwalobaUi";
 
 
 const PortfolioProfile = () => {
@@ -48,12 +48,19 @@ const PortfolioProfile = () => {
      </div>
 
      <div className="mt-4">
-      <ButtonUi text="about me" onClick={() =>handleMePage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
-      <ButtonUi text="projects"  className="rounded-full bg-[rgba(31,31,31,1)]" />
-      <ButtonUi text="Tech Stack"  onClick={() =>handleNextPage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
-      <ButtonUi text="My Experiences"  onClick={() =>handleExperiencePage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
-      <ButtonUi text="Github" onClick={()=> handleGitHubPage()}  className="rounded-full bg-[rgba(31,31,31,1)]" />
-      <ButtonUi text="LinkedIn" onClick={()=> handleLinkedInPage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
+      <OreoluwabaUi text="about me" onClick={() =>handleMePage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
+
+      <OreoluwabaUi text="projects"  className="rounded-full bg-[rgba(31,31,31,1)]" />
+
+      <OreoluwabaUi text="Tech Stack"  onClick={() =>handleNextPage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
+
+      <OreoluwabaUi text="My Experiences"  onClick={() =>handleExperiencePage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
+
+
+      <OreoluwabaUi text="Github" onClick={()=> handleGitHubPage()}  className="rounded-full bg-[rgba(31,31,31,1)]" />
+
+      <OreoluwabaUi text="LinkedIn" onClick={()=> handleLinkedInPage()} className="rounded-full bg-[rgba(31,31,31,1)]" />
+
      </div>
     </div>
   )
